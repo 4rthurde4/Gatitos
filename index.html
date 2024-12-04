@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS / Estilo da página -->
+    <link rel="stylesheet" href="style.css">
+    <!-- href = Hyperlink reference -->
+</head>
+
+<body>
+    <div class="titles">
+        <h1>The CAT API</h1>
+        <!-- Quando clicar no botão veja seus gatos o texto veja seus gatos será substituído -->
+        <h1 id="retorno-gatos">Veja seus gatos</h1>
+        <!--Quando for clicado em cadastrar gatos o será exibido se foi possível ou não-->
+        <h1 id="cadastro_de_gatos">Cadastre seus gatos</h1>
+        <button id="botao-chamar-gatos" class="btn btn-dark">Carregar gatos API</button>
+        <button id="botao-cadastrar-gatos" class="btn btn-info">Cadastrar gatos carregados</button>
+        <button id="botao-carregar-gatos" class="btn btn-primary">Carregar gatos cadastrados</button>
+        <button id="botao-deletar-gatos" class="btn btn-danger">Deletar todos gatos</button>
+        <button id="botao-mostrar-logs-api" class="btn btn-secondary">Logs API</button>
+    </div>
+    <div id="bloco-dos-gatos">
+        <!-- Aqui ficarão as imagens dos gatos -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
